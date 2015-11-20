@@ -1,0 +1,670 @@
+<head>
+  <meta name="viewport" content="width-device-width, initial-scale=1" />
+  <meta charset="utf-8"/>
+  <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <!--
+    application.css is where you put your styles
+  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <title>El Camino Lax</title>
+</head>
+
+<body>
+  {{>main}}
+</body>
+
+<template name="main">
+  <div class="banner" id="banner">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="FMRFJG42HBWFN">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+  <div class ="heading">
+    <h1>EL CAMINO WILDCATS</h1>
+  </div>
+  </div>
+  <nav class="top-nav" id="top-nav">
+    <h1>EC LAX</h1>
+   <a href="#banner"><img src="/elcamino-logo.png" class="logo"></a>
+   <div class="menu-container">
+    <div class="menu">
+    <a><img src="../menu-btn.png"></a>
+    </div>
+   </div>
+      <ul class="top-menu">
+        <li><a href="#contact">Contact</a><div class="border-bottom"></div></li>
+        <li><a href="#roster">Roster</a><div class="border-bottom"></div></li>
+        <li><a href="#gallery">Gallery</a><div class="border-bottom"></div></li>
+        <li><a href="#schedule">Schedule</a><div class="border-bottom"></div></li>
+      </ul>
+  </nav>
+<div id="main-wrapper">
+  <!-- Opener -->
+  <div class ="main-container" id="opener">
+    <div class="cover">
+      <h1 class="faded">WELCOME<br><span>The Official El Camino Boys Lacrosse Website</span></h1>
+    </div>
+  </div>
+  <!-- Schedule -->
+  <div class="main-container" id="schedule">
+      <h1><strong>2016</strong><br><span>Wildcat's Lacrosse Schedule</span></h1>
+      <div class="schedule-container">
+
+        <ul class="event">
+          <li>
+            <img src="vistamurrieta.png">
+
+            <div class="time-date">
+              <h3>MONDAY | March 7, 2016</h3>
+              <h2>Vista Murrieta</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3>N/A</h3>
+            </div>
+            <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+          <img src="olympian.png">
+            <div class="time-date">
+              <h3> SATURDAY | March 12, 2016</h3>
+              <h2>Olympian</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3>N/A</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+           <li>
+            <img src="mtcarmel.jpg">
+            <div class="time-date">
+              <h3>WEDNESDAY | March 16, 2016</h3>
+              <h2>Mt. Carmel</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>L</span>9 - 22</h3>
+            </div>
+            <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="Chap-Puma.jpg">
+            <div class="time-date">
+              <h3>FRIDAY | March 18, 2016</h3>
+              <h2>Chapparal</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3>N/A</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+          <img src="miramesa.png">
+            <div class="time-date">
+              <h3>TUESDAY | March 22, 2016</h3>
+              <h2>Mira Mesa</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3>N/A</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="ljcd.jpg">
+            <div class="time-date">
+              <h3>THURSDAY | March 24, 2016</h3>
+              <h2>La Jolla Country Day</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>L</span>10 - 11</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="sage.gif">
+            <div class="time-date">
+              <h3>MONDAY | March 28, 2016</h3>
+              <h2>Sage Creek</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3>N/A</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="sandieguito.jpeg">
+            <div class="time-date">
+              <h3>WEDNESDAY | March 30, 2016</h3>
+              <h2>San Dieguito</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>W</span>13 - 7</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="missionviejo.jpg">
+            <div class="time-date">
+              <h3>WEDNESDAY | April 6, 2016</h3>
+              <h2>Mission Viejo</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>L</span>4 - 10</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="fallbrook.jpg">
+            <div class="time-date">
+              <h3>MONDAY | April 18, 2016</h3>
+              <h2>Fallbrook</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>L</span>2 - 5</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+
+          </li>
+          <li>
+            <img src="valleycenter.jpg">
+            <div class="time-date">
+              <h3>WEDNESDAY | April 20, 2016</h3>
+              <h2>Valley Center</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>L</span>4 - 11</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="staugustine.jpg">
+            <div class="time-date">
+              <h3>MONDAY | April 25, 2016</h3>
+              <h2>St. Augustine</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3>N/A</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+          <li>
+            <img src="delnorte.jpg">
+            <div class="time-date">
+              <h3>FRIDAY | April 29, 2016</h3>
+              <h2>Del Norte</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>W</span>6 - 4</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+           <li>
+            <img src="sandieguito.jpeg">
+            <div class="time-date">
+              <h3>TUESDAY | May 3, 2016</h3>
+              <h2>San Dieguito</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>W</span>13 - 7</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+              <li>
+            <img src="fallbrook.jpg">
+            <div class="time-date">
+              <h3>FRIDAY | May 6, 2016</h3>
+              <h2>Fallbrook</h2>
+            </div>
+            <div class="last-year">
+               <h2><strong>2015</strong> SCORE</h2>
+               <h3><span>L</span>2 - 5</h3>
+            </div>
+             <div class="this-year">
+                <h2><strong>2016</strong> SCORE</h2>
+                <h3>TBD</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Gallery -->
+    <div class="main-container" id="gallery">
+
+      <div id="vanilla-slideshow-container">
+          <div id="vanilla-slideshow">
+
+              <div class="vanilla-slide">
+                  <img src="lax4.jpg" alt="slide1">
+              </div>
+
+              <div class="vanilla-slide">
+                  <img src="lax6.jpg" alt="slide2">
+              </div>
+
+              <div class="vanilla-slide">
+                  <img src="lax9.jpg" alt="slide3">
+              </div>
+
+              <div class="vanilla-slide">
+                  <img src="lax1.jpg" alt="slide4">
+              </div>
+
+          </div>
+          <div class="smug-mug"><a href="http://wildcatlax.smugmug.com/" target="_blank">View all albums</a></div>
+          <div id="vanilla-indicators"></div>
+          <div id="vanilla-slideshow-previous">
+              <img src="arrow-previous.png" alt="slideshow arrow">
+          </div>
+          <div id="vanilla-slideshow-next">
+              <img src="arrow-next.png" alt="slideshow arrow">
+          </div>
+      </div>
+    </div>
+
+
+    <!-- Roster -->
+    <div class="main-container" id="roster">
+        <h1>2016 Wildcat Roster</h1>
+      <div class="column-wrapper">
+        <div class="column fadein">
+          <h2>Defense</h2>
+          <ul class="defense fadein">
+            <li>TBD</li>
+          </ul>
+        </div>
+        <div class="column fadein">
+          <h2>Attack</h2>
+          <ul class="attack fadein">
+            <li>TBD</li>
+          </ul>
+        </div>
+        <div class="column fadein">
+          <h2>Midfield</h2>
+          <ul class="midfield fadein">
+            <li>TBD</li>
+          </ul>
+        </div>
+        <div class="column fadein">
+          <h2>Goalies</h2>
+          <ul class="goalies fadein">
+            <li>TBD</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <!-- Contact -->
+      <div class="main-container" id="contact">
+        <h3>Email ECHS Lacrosse</h3>
+        <div class="bounce container">
+        <a href="mailto:echswildcatlax@gmail.com"><img src="mail.png"></a>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer-container">
+        <ul>
+          <li>EL CAMINO HIGH SCHOOL WILDCATS</li>
+          <li>400 Rancho Del Oro Dr, Oceanside, CA 92057</li>
+        </uL>
+
+        <div class="social-media">
+          <a href="https://www.facebook.com/ECHSLacrosse/" target="_blank"><img src="/facebook.png"></a>
+        </div>
+      </div>
+  </div>
+
+  <script>
+    $('.faded').hide().fadeIn(3000);
+    $('td a').on("click", function(e){
+      e.preventDefault();
+      $(".right-img img").remove();
+      $(".right-img").append($(this).html());
+    });
+
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = $(this.hash);
+        $('html, body').stop().animate({'scrollTop': target.offset().top}, 900, 'swing');
+    }); // end animated scroll
+
+    $(window).scroll( function(){
+      $('.fadein').each( function(i) {
+         var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+         var bottom_of_window = $(window).scrollTop() + $(window).height();
+         if( bottom_of_window > bottom_of_object ){
+            $(this).animate({'opacity':'1'},700);
+          }
+      });
+    }); // end window scroll
+
+    $(window).scroll(function(){
+      $('.top-nav').css("top", Math.max(0, 150 - $(this).scrollTop()));
+    });
+
+    $(".menu").on("click", function(){
+      $("#top-nav ul").toggleClass("active");
+    });
+
+    /*
+     vanillaSlideshow v0.2
+     (c) Dimitri Mikadze
+     https://github.com/DimitriMikadze/vanilla-slideshow
+     License: MIT
+    */
+    var vanillaSlideshow = (function() {
+
+      var app = {};
+
+      // default properties
+      var defaults = {
+        delay: 5000,
+        arrows: true,
+        indicators: true,
+        random: false,
+        slideshow: true,
+        animationSpeed: '1s'
+      }
+
+      // container divs
+      var slideshowContainer = document.getElementById('vanilla-slideshow-container');
+      var slideshow = document.getElementById('vanilla-slideshow');
+      var slides = document.getElementById('vanilla-slideshow').getElementsByClassName('vanilla-slide');
+      var arrowPrevious = 'vanilla-slideshow-previous';
+      var arrowNext = 'vanilla-slideshow-next';
+      var indicatorsContainer = 'vanilla-indicators';
+
+      // check properties
+      function _checkProperties() {
+        var random = (defaults.random) ? _randomInt(0, slides.length - 1) : 0;
+
+        for(var i=0; i<slides.length; i++) {
+          if(slides[i].getAttribute('data-src') !== null) {
+            slides[i].style.backgroundImage  = 'url( ' + slides[i].getAttribute('data-src') + ')';
+          }
+          if(i === random) { slides[i].className += ' vanilla-active'; }
+          _setVendor(slides[i], 'Transition', defaults.animationSpeed);
+
+        }
+
+      };
+
+      // slideshow function
+      function _slideShow() {
+
+        var active = document.querySelector('#' + slideshow.getAttribute('id') + ' .vanilla-active');
+        var next = (_nextElement(active)) ? _nextElement(active) : slides[0];
+
+        // classes
+        active.className = 'vanilla-slide';
+        next.className += ' vanilla-active';
+
+        // indicators
+        if(defaults.indicators) {
+          var activePointer = document.querySelector('#' + indicatorsContainer + ' .vanilla-active');
+          var nextPointer = (_nextElement(activePointer)) ? _nextElement(activePointer) : app.indicators[0];
+          activePointer.className = activePointer.className.replace(/(?:^|\s)vanilla-active(?!\S)/g, '');
+          nextPointer.className += ' vanilla-active';
+        }
+
+      };
+
+      // Previous slide
+      function _previousSlide() {
+
+        _stopSlideshow();
+
+        var active = document.querySelector('#' + slideshow.getAttribute('id') + ' .vanilla-active');
+        var previous = (_previousElement(active) ? _previousElement(active) : slides[slides.length - 1]);
+
+        // classes
+        active.className = 'vanilla-slide';
+        previous.className += ' vanilla-active';
+
+        // indicators
+        if(defaults.indicators) {
+          var activePointer = document.querySelector('#' + indicatorsContainer + ' .vanilla-active');
+          var nextPointer = (_previousElement(activePointer)) ? _previousElement(activePointer) : app.indicators[app.indicators.length - 1];
+          activePointer.className = activePointer.className.replace(/(?:^|\s)vanilla-active(?!\S)/g, '');
+          nextPointer.className += ' vanilla-active';
+        }
+        if(defaults.slideshow) {
+          _startSlideshow();
+        }
+      };
+
+      // Next slide
+      function _nextSlide() {
+
+        _stopSlideshow();
+
+        _slideShow();
+
+        if(defaults.slideshow) {
+          _startSlideshow();
+        }
+
+      };
+
+      // create indicators and add event listeners
+      function _createIndicators() {
+
+        for(var i=0; i<slides.length; i++) {
+          var node = document.createElement("div");
+          var indicators = document.getElementById(indicatorsContainer).appendChild(node);
+          indicators.addEventListener("click", function() {
+            _indicatorsClick(this);
+          });
+          indicators.className = indicatorsContainer;
+          if(_hasClass(slides[i], 'vanilla-active')) {
+            indicators.className += ' vanilla-active';
+          }
+        }
+
+        app.indicators = slideshowContainer.getElementsByClassName(indicatorsContainer);
+
+      };
+
+
+      // indicators click function
+      function _indicatorsClick(self) {
+
+        _stopSlideshow();
+
+        // remove active classes
+        for(var i=0; i<slides.length; i++) {
+          if(_hasClass(app.indicators[i], 'vanilla-active')) {
+            app.indicators[i].className = app.indicators[i].className.replace(/(?:^|\s)vanilla-active(?!\S)/g, '');
+          }
+          if(_hasClass(slides[i], 'vanilla-active')) {
+            slides[i].className = 'vanilla-slide';
+          }
+        }
+
+        // add active class
+        var i = Array.prototype.indexOf.call(app.indicators, self);
+        app.indicators[i].className += ' vanilla-active';
+
+        // add classes to slide
+        slides[i].className += ' vanilla-active';
+
+        if(defaults.slideshow) {
+          _startSlideshow();
+        }
+
+      };
+
+      // start slideshow
+      function _startSlideshow() {
+
+        app.intervalSliding = setInterval(function() {
+          _slideShow();
+        }, defaults.delay);
+      };
+
+      // stop slideshow
+      function _stopSlideshow() {
+
+        clearInterval(app.intervalSliding);
+      };
+
+      // set browser vendor properties
+      function _setVendor(element, property, value) {
+        element.style["webkit" + property] = value + ' ease-in-out';
+        element.style["Moz" + property] = value + ' ease-in-out';
+        element.style["ms" + property] = value + ' ease-in-out';
+        element.style["o" + property] = value + ' ease-in-out';
+      };
+
+      // has class
+      function _hasClass(element, cls) {
+          return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+      };
+
+      // Next element
+      function _nextElement(element) {
+          do {
+              element = element.nextSibling;
+          } while (element && element.nodeType !== 1);
+
+          return element;
+      };
+
+      // Previous element
+      function _previousElement(element) {
+          do {
+              element = element.previousSibling;
+          } while (element && element.nodeType !== 1);
+
+          return element;
+      };
+
+      // Random number
+      function _randomInt(min, max) {
+
+          return Math.floor(Math.random() * (max - min + 1) + min);
+      };
+
+      // init function
+
+
+      app.init = function(arguments) {
+
+        if( ! slideshowContainer) { return false; }
+
+        // check if options is present
+          if(arguments && typeof arguments === "object") {
+            defaults.arrows = (arguments.arrows !== '') ? arguments.arrows : defaults.arrows;
+            defaults.indicators = (arguments.indicators !== '') ? arguments.indicators : defaults.indicators;
+            defaults.random = (arguments.random !== '') ? arguments.random : defaults.random;
+            defaults.slideshow = (arguments.slideshow !== '') ? arguments.slideshow : defaults.slideshow;
+            defaults.delay = (arguments.delay) ? arguments.delay : defaults.delay;
+            defaults.animationSpeed = (arguments.animationSpeed) ? arguments.animationSpeed : defaults.animationSpeed;
+          }
+
+        _checkProperties();
+
+        if(slides.length > 1) {
+
+          if(defaults.arrows) {
+
+            document.getElementById(arrowNext).addEventListener('click', function() {
+              _nextSlide();
+            });
+            document.getElementById(arrowPrevious).addEventListener('click', function() {
+              _previousSlide();
+            });
+            document.getElementById(arrowPrevious).style.display = 'block';
+            document.getElementById(arrowNext).style.display = 'block';
+          }
+
+          if(defaults.indicators) {
+            _createIndicators();
+          }
+          if(defaults.slideshow) {
+            _startSlideshow();
+          }
+        }
+      };
+
+      return app;
+
+    }(vanillaSlideshow));
+
+    vanillaSlideshow.init({
+          // auto slideshow, options: true or false
+          slideshow: true,
+          // slideshow delay
+          delay: 5000,
+          // display arrows, options: true or false
+          arrows: true,
+          // display indicators, options: true or false
+          indicators: true,
+          // start slideshow randomly, options: true or false
+          random: false,
+          // animation speed
+          animationSpeed: '1s'
+    });
+  </script>
+
+</template>
