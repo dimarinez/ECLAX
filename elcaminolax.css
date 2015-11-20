@@ -38,15 +38,18 @@ th {
 
   .heading h1 {
     font-size: 50px !important;
-    width: 10% !important;
 
+  }
+
+  .heading {
+    width: 300px;
   }
 
 
 #top-nav ul {
     float: right !important;
     margin: 0;
-    background: rgba(209, 209, 209, 0.7);
+    background: rgba(209, 209, 209, 0.9);
     box-shadow: 1px 1px 5px rgba(0, 0 , 0, 0.5);
     width: 105px;
     right:0;
@@ -126,9 +129,9 @@ th {
     margin:0;
   }
 
-  .heading h1 {
+  .heading {
     font-size: 40px !important;
-    width: 40% !important;
+    width: 300px !important;
   }
 
 
@@ -219,28 +222,14 @@ th {
 
   .footer-container ul {
     margin: 0 auto !important;
-    text-align: center;
+    text-align: justify;
     float: none;
-    width: 100% !important;
+    width: 50%;
     padding: 0 0 3px 0;
-    -webkit-transform:translateY(-125%);
-    font-size: 15px;
+    font-size: 10px;
 
   }
 
-  .social-media {
-    float:none !important;
-    margin:0 auto !important;
-    width: 100% !important;
-    text-align: center;
-    top:20%;
-    -webkit-transform:translateY(-75%) !important;
-  }
-
-  .social-media img {
-    float:none !important;
-    margin: 0 !important;
-  }
 
 
 
@@ -258,7 +247,7 @@ th {
 
 
   #schedule h1 {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   #roster {
@@ -909,7 +898,7 @@ body { margin: 0; padding: 0 0 0 135px 0; max-height: 100%; }
 .top-nav { position: fixed; background: white; margin: 0; height: 100px; width: 100%; z-index: 1; padding: 0;}
 .top-nav h1 { position: absolute; font-weight: 800; color: #4a2617; text-shadow: -1px 0 #ffc423, 0 1px #ffc423, 1px 0 #ffc423, 0 -1px #ffc423; -webkit-text-shadow: -1px 0 #ffc423, 0 1px #ffc423, 1px 0 #ffc423, 0 -1px #ffc423; -moz-text-shadow: -1px 0 #ffc423, 0 1px #ffc423, 1px 0 #ffc423, 0 -1px #ffc423; font-family: 'Open Sans', sans-serif;; font-size: 45px; margin-left: 232px; margin-top: 20px; }
 .menu-container .menu {  display: table-cell !important; vertical-align: middle; margin: 0 8.5%; cursor: pointer; padding-top:10px;}
-.top-nav .menu-container { display:none; height: 100%; float: right; width: 100px;}
+.top-nav .menu-container { display:none; height: 100%; float: right; width: 75px;}
 .top-nav .logo { position: absolute; width: 150px; margin: 3px 5%; animation-name: swing; animation-duration: 1s; }
 .top-nav ul { list-style: none; margin: 0 -6.5%; width: 100%; padding: 33px 0; position: fixed;}
 .top-nav ul li { display: inline-block; text-align: center; position: relative; float: right; height: 35px; width: 100px; }
