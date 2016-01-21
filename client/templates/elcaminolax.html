@@ -363,12 +363,11 @@
       </div>
       <!-- Footer -->
       <div class="footer-container">
-        <ul>
-          <li>EL CAMINO HIGH SCHOOL WILDCATS</li>
-          <li>400 Rancho Del Oro Dr, Oceanside, CA 92057</li>
-        </uL>
-
-        <div class="social-media">
+        <div class="footer">
+          <ul>
+            <li>EL CAMINO HIGH SCHOOL WILDCATS</li>
+            <li>400 Rancho Del Oro Dr, Oceanside, CA 92057</li>
+          </ul>
           <a href="https://www.facebook.com/ECHSLacrosse/" target="_blank"><img src="/facebook.png"></a>
         </div>
       </div>
@@ -381,6 +380,7 @@
       $(".right-img img").remove();
       $(".right-img").append($(this).html());
     });
+
 
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();
@@ -406,6 +406,7 @@
     $(".menu").on("click", function(){
       $("#top-nav ul").toggleClass("active");
     });
+
 
     /*
      vanillaSlideshow v0.2
